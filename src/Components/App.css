@@ -1,0 +1,134 @@
+.document-header{
+  background-color: #39AEBC;
+  padding:20px;
+}
+.document-title{
+  color: white;
+}
+
+.saveSegment-button{
+  padding:10px;
+  margin:10px 30px;
+}
+
+.DrawerInput{
+  width:70%;
+  padding: 10px;
+  border: 1px solid #989898;
+  border-radius: 5px;
+}
+.segmentSection{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border:2px solid #39AEBC;
+  padding: 30px;
+}
+.drawer-footer{
+  display: flex;
+  gap:20px;
+}
+
+.SaveButton{
+  background-color: #41B494;
+  padding: 10px;
+  color: white;
+  border: 1px solid #989898;
+  border-radius: 5px;
+}
+
+.CancelButton{
+  color:#DD7396;
+  padding: 10px;
+  border: 1px solid #989898;
+  border-radius: 5px;
+}
+.ant-drawer-header{
+  background-color: #39AEBC;
+}
+
+.drawerTitle{
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+  color: white;
+}
+
+.goBackIcon{
+  height: 20px;
+  cursor: pointer;
+}
+
+.groupDot{
+  width:10px;
+  height:10px;
+  background-color: red;
+  border-radius: 90%;
+}
+
+.userDot{
+  width:10px;
+  height:10px;
+  background-color: #5DDB78;
+  border-radius: 90%;
+}
+
+.dotContainer{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+.segmentContainer{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.schemaDropDown{
+  width:60%;
+  padding: 10px;
+  border: 1px solid #989898;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+
+.AddSchemaButton{
+  padding: 10px;
+  background-color: #39AEBC;
+  color:white
+}
+
+.schemaButton-Container{
+  margin-top: 20px;
+  display: flex;
+  gap:20px;
+  align-items: center;
+}
+
+.selectSchema-dropDown{
+  padding: 10px;
+  width: 50%;
+}
+
+.onClickCloseButton{
+  padding: 5px 10px; 
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.schemaContainer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.goBackIcon{
+  font-size: larger;
+  color: white;
+}
